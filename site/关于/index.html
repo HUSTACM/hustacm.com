@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>面向零基础萌新的 ACM 入门指南 - HUSTACM</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "\u9762\u5411\u96f6\u57fa\u7840\u840c\u65b0\u7684 ACM \u5165\u95e8\u6307\u5357";
+        var mkdocs_page_input_path = "\u5173\u4e8e.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> HUSTACM
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">面向零基础萌新的 ACM 入门指南</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#_1">竞赛常见名词</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_2">竞赛赛制介绍</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_3">学习路线</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#oj">可以用的资源（OJ 等）</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_4">后续比赛/训练/筛选标准</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../%E5%8E%86%E5%B9%B4%E6%88%90%E7%BB%A9/">历年成绩</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../%E6%AF%94%E8%B5%9B%E8%B5%84%E6%BA%90/">比赛资源</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">HUSTACM</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>面向零基础萌新的 ACM 入门指南</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="acm">面向零基础萌新的 ACM 入门指南</h1>
+<p>这篇文章主要说明了一些关于 ACM 的一些问题，想打 ACM 的可以先阅读一下。本次招新面向我校全体大一、大二同学，不一定需要是计科的，任何专业、无论是否是零基础都可以参加。</p>
+<p>ACM 全称 ACM-ICPC，原本是专指国际大学生程序设计竞赛，是面向全球大学生的程序设计竞赛。比赛的主要目标是在 5 小时内三人一队利用一台电脑编程，解决算法问题。后来其余类似赛制的比赛也归入到 ACM 中，泛指这类组队的程序设计竞赛。主要编程语言为 C++，偶尔会使用 Python。</p>
+<h3 id="_1">竞赛常见名词</h3>
+<p><strong>样例和测试数据</strong>    在实际的比赛中，每道题会有少量小规模的样例（输入和输出）来说明本题的输入和输出格式，以及题意的进一步阐明。在实际评测程序的时候，会有若干大规模的测试数据来检验你的代码是否正确，是否能在规定的时间和内存限制下结束并返回正确的结果。这些测试数据是对你不可见的，最后的评测结果也是按照这些不可见的测试数据来给出。</p>
+<p><strong>OJ</strong>    Online Judge，是进行训练的平台，对于一道题目会有若干测试数据通过运行你的代码来检验你的提交代码是否正确。训练平台推荐在下方的可用资源有更详细的说明。</p>
+<p><strong>STL</strong>    C++ 自带的库，里面包含有大量可以调用的实用数据结构（set、map、priority_queue 等）和自带函数，通常比赛均支持这些库，在赛时可以避免重复造轮子，直接使用。注意通常比赛 Python 禁止使用非标准库。</p>
+<p><strong>评测结果</strong></p>
+<table>
+<thead>
+<tr>
+<th>评测结果</th>
+<th>含义</th>
+<th>是否计入罚时</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Accepted（AC）</td>
+<td>通过，程序在规定的时间和内存限制下对于测试数据得到正确的结果。</td>
+<td>否</td>
+</tr>
+<tr>
+<td>Wrong Answer（WA）</td>
+<td>程序对于给定的某些测试数据返回错误答案。</td>
+<td>是</td>
+</tr>
+<tr>
+<td>Presentation Error（PE）</td>
+<td>程序对于某些测试数据返回的结果的格式错误。通常此类错误在正式比赛中计入 WA。</td>
+<td>是</td>
+</tr>
+<tr>
+<td>Time Limited Exceeded（TLE）</td>
+<td>程序未能在规定时间内结束。</td>
+<td>是</td>
+</tr>
+<tr>
+<td>Memory Limited Exceeded（MLE）</td>
+<td>程序使用超出题目限制的内存。</td>
+<td>是</td>
+</tr>
+<tr>
+<td>Runtime Error（RTE 或 RE）</td>
+<td>程序运行时错误，未能正确结束。</td>
+<td>是</td>
+</tr>
+<tr>
+<td>Compile Error（CE）</td>
+<td>程序无法通过编译。</td>
+<td>否</td>
+</tr>
+</tbody>
+</table>
+<p>注意：评测返回结果是无法看到自己的错误数据的，只有一个评测结果。</p>
+<p><strong>罚时</strong>    对于一道已经通过的题目，罚时为该题第一次通过提交时间加上在此之前该题错误提交数 * 20。对于未通过的题目则罚时为 0。若此题通过之后再有错误提交则不计入罚时。</p>
+<p><strong>正式队伍、打星队伍</strong>    在一场 XCPC（ICPC、CCPC 以及省赛、校赛等）比赛中，有两种类型队伍：正式队伍、打星队伍。正式队伍为在比赛前以正式队伍身份报名，且在比赛中至少通过一道题的队伍。打星队伍则不计入正式队伍排名，也无法获得任何奖牌。最后获奖人数按照 X = min(正式队伍数, 350) 为基准，金牌人数为 X/10 下取整，银牌为金牌人数的两倍，铜牌为金牌人数的三倍发放，即粗略为 10%、20%、30%。</p>
+<h3 id="_2">竞赛赛制介绍</h3>
+<p>以下几种赛制为常见的算法竞赛赛制：</p>
+<table>
+<thead>
+<tr>
+<th>赛制</th>
+<th>规则</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OI 赛制</td>
+<td>赛中不会进行代码的评测，等比赛结束后统一收集代码进行评测，对于每道题，按该题通过的测试点给分（存在部分分）。可能存在绑定测试 —— 即多个测试点都通过才给这部分分。OI 赛制时间不固定，通常仅有3-4题。</td>
+</tr>
+<tr>
+<td>IOI 赛制</td>
+<td>赛中实时进行代码的评测并返回评测结果，实时更新榜单，取最后一次提交的成绩作为最终成绩，可以多次提交。对于每道题，按该题通过的测试点给分（存在部分分）。可能存在绑定测试 —— 即多个测试点都通过才给这部分分。IOI 赛制时间不固定，通常仅有 3-4 题。</td>
+</tr>
+<tr>
+<td>ACM 赛制</td>
+<td>赛中实时进行代码的评测并返回评测结果，实时更新榜单（最后一小时封榜，榜单不更新，待到颁奖再公布），按通过题数（第一关键字）和罚时（第二关键字）计算排名，若题数和罚时都相同则并列。一道题必须通过全部的测试点才能认为此题通过，否则均认为不通过，属于错误提交。通常ACM赛制为 5 小时，9-13 题，三人一机组队参赛。</td>
+</tr>
+</tbody>
+</table>
+<p>ACM 主要比赛列表：</p>
+<ol>
+<li>ICPC：国际大学生程序设计竞赛，是面向全球大学生的程序设计竞赛的最高规格竞赛。通常 10-12 月会在全球各地分赛区举办区域赛，区域赛优胜（区域赛前三）可以获得来年 6 月的 World Final 世界总决赛的参赛资格。中国大陆、蒙古、朝鲜同属东亚赛区，每场区域赛均是面向该区域的全体大学生。在一个赛季（一年）中每个人仅能以正式队伍身份参加两场区域赛。每年区域赛场数不定。</li>
+</ol>
+<p>同时东亚赛区会有一场 ECF（East Continent Final，东亚赛区决赛），面向 ICPC 区域赛获得银牌及以上的队伍。该比赛不计入正式队伍参赛数，但规格同属亚洲区域赛。</p>
+<ol>
+<li>CCPC：中国大学生程序设计竞赛。面向对象仍为全国大学生，一人一年仅能以正式队伍身份参加两场区域赛，一年固定为4场分赛站，均在 11-12 月进行。5 月是 CCPCF 的比赛时间，该比赛同样不计入正式队伍身份参赛场数。</li>
+</ol>
+<p>ACM 的主要比赛均为英文题面，三人一机，5h 参赛。若为现场赛则需要到举办城市当地现场参赛。</p>
+<h3 id="_3"><strong>学习路线</strong></h3>
+<p>对于初学者，整个学习过程可以大致分为语言、数据结构、算法三个模块。首先对于初学者而言，掌握语言是基础，但并不需要对语言有非常深刻的理解和语言特性的使用。功利的来说，对于算法竞赛中的题目，只要掌握最基本的判断、循环、函数以及类的简单用法就可以做几乎所有题目（甚至不用 C++ 的 STL，虽然它真的很方便），最重要的还是数据结构和算法上的磨练。</p>
+<p>在掌握基本语法之后，就可以深入学习数据结构和算法，这两个模块之间界限并不是很明显，学习的时候可以并驾齐驱。首先可以接触一些比较简单基础的算法，诸如贪心，搜索，动态规划等等，学习时别急于求成，这些基础算法对后续算法的学习十分重要，一定要打好基础。之后可以接触比较简单的数据结构，包括但不限于链表、队列、栈、树、二叉树、堆，如果你可以熟练地掌握这些基础数据结构，就可以用这些数据结构辅助于之前学的基础算法。在融会贯通之后就可以做出 XCPC 比赛中绝大部分的简单~中等题。强调一下，竞赛对于基础算法的要求是非常高的，很多较为复杂的题目或算法不过是基础算法的堆砌，因此在学习基础算法时不仅要扎实，还要全面，比如不能因为会用 vector 存图而不学前向星，以及对于同一类型算法之间的辨析，比如十多种排序算法、四种 LCA 求法、三种单源最短路求法，如果对自己要求不是很高，可以止步于此，反复推敲这些基础算法。</p>
+<p>在这里要提醒零基础的同学一个非常重要的事情。在 XCPC 比赛中我们只看评测结果，无论你是优化后的暴力还是标算，过了就是成功，但是如果想出正解但没能写对则和摆烂一样，因此你会发现 XCPC 比赛对代码能力的要求是非常高的。所以在进行基础算法的学习过程中，要非常注重刷题，在没有足够的代码能力之前，口糊永远不等于 AC，一般一个金牌选手都起码刷过两千道题。很多同学在学习算法之后会发现自己在想出做法之后写不出来，写完调不出来，这在赛场上就是大把时间的浪费，因此对于刚入门的同学来说落实到代码是尤为重要的。同时，在刷题过程中要有针对性的训练，不要漫无目的地乱刷，可以参照群里给出的题单。同时对于刚入门的同学来说，STL 是非常重要的，可以方便你很多，但是，千万不要依赖于 STL，尤其是刚刚入门的同学。</p>
+<p>在有了扎实的基础之后，就可以对自己学过的基础算法进行一个总结与升级，比如单调栈，单调队列，线段树等等，在这个阶段时，新算法并不像初学时之前这么多，但是运用上会灵活很多，同样需要大量的刷题作为基础，你永远无法猜到出题人会从哪个方向来刁难你。</p>
+<p>如果你已经完成了上述部分，那么恭喜你，你已经是一个比较成功的优秀的 ACMer 了。在此之后的学习建议以自己探索为主，向比较困难的算法进发。</p>
+<p>基础算法路线：</p>
+<p>数据结构：链表、队列、栈、单调队列、单调栈、堆（priority_queue）、ST 表、STL、并查集、线段树、树状数组、字典树、树上启发式合并、莫队。进阶部分：虚树、K-D Tree，可并堆、笛卡尔树、平衡树（Treap、Splay、替罪羊树、FHQ、朝鲜树等）、CDQ 分治、可持久化数据结构、树链剖分（重链、长链）、点分、边分、树套树、LCT（前置 Splay）……</p>
+<p>图论：图的遍历、拓扑排序、剪枝、最短路（单源、多源）、最小生成树、LCA、缩点、图连通的 Tarjan 算法（连通分量、割点、割边、点双、变双）、差分约束、匈牙利算法。进阶部分：A、A*，IDA*、网络流（最大流、费用流）及其构图、圆方树、带花树、KM 算法、稳定婚姻系统、欧拉回路等。</p>
+<p>动态规划（dp）：背包（01，完全，多重，分组），树形 dp，DAG 上 dp，区间 dp，状压 dp，数位 dp，计数 dp，插头 dp，斜率优化，四边形不等式。</p>
+<p>字符串：哈希、KMP。进阶算法（不推荐新手学习）：AC 自动机、Manacher、SA、SAM、PAM、Lyndon分解。</p>
+<p>数学数论：扩欧、CRT、组合数学（进阶需要生成函数和多项式）、线性筛、矩阵、皮克定理、高斯消元。进阶：Burnside 引理和 Polya 定理、快速判断质数、各类反演变换（莫比乌斯反演、二项式反演、斯特林反演）、FFT 与 NTT、FWT、亚线性筛、Lucas 定理、二次剩余、原根、高次剩余、康托展开、矩阵树定理等。具体可以参看《具体数学》。</p>
+<p>随机算法（都是进阶）：爬山、退火、遗传。</p>
+<p>misc：贪心、简单博弈、构造。难度可易可难。</p>
+<p>一些基本的算法思想：搜索及记忆化与剪枝、迭代加深、二分、双指针、倍增、分块、分治、启发式算法、cdq 分治、整体二分等。</p>
+<p>对于一些进阶算法（字符串、多项式、计算几何等），因为需要较多前置知识和较高的模板要求，不推荐新手学习。如果需要冲击金牌或者更高级别的奖牌的时候再去学习也不迟。</p>
+<p>以下为一个整体的算法树：</p>
+<p><img alt="3" src="/img/%E5%8A%9D%E9%80%80%E6%A0%91.jpeg" /></p>
+<p>通常来说算法竞赛很少通过看书来学习，通常是在网上去做题和学习博客。如果一定要推荐一些书籍的话，强烈推荐李煜东的蓝书《算法竞赛进阶指南》。刘汝佳的紫书《算法竞赛入门经典》和蓝书《算法竞赛入门经典训练指南》因为题目大多在 UVa 上，提交较为困难，因而不太推荐。</p>
+<h3 id="oj"><strong>可以用的资源（OJ 等）</strong></h3>
+<p>知识点的学习：oiwiki.com。最全面收集了算法竞赛的全套知识点的网站。</p>
+<p>知乎可以关注严格鸽、Pecco、pzr 等，均更新有若干算法的学习文章以及训练题目的题解等。或者善用百度。</p>
+<p>常见 OJ：</p>
+<p>洛谷 https://www.luogu.com.cn/。主要面向新手的 OJ，有大量的模板题，NOI 系列比赛的真题，以及一些原创题等。通过颜色来进行难度的评定，每道题都有题解区供学习。入门可以使用洛谷的官方题单，位于侧栏题单区。</p>
+<p>LOJ https://loj.ac/、UOJ https://uoj.ac/：洛谷的升级版，数据会进一步加强（尤其是模板题）。</p>
+<p>Codeforces（CF）https://codeforces.com/：全球最大的 OJ 平台。每周会有 2-3 场不同等级的单人比赛，进行全球排名，然后根据成绩进行 rating 的评定。比赛时间通常为晚上的 22:35 分，时长两小时。通常所说的名字颜色就是从这里来的。通常比赛类型为 Div1-Div4，难度依次递降。</p>
+<p>同时由于多年的经营，Codeforces 题库收集了从开始成立以来的全部比赛的题目（位于上侧边栏中的 Contests 和 ProblemSet 中）：</p>
+<p><img alt="3" src="/img/contest.png" /></p>
+<p>最低难度为 800，依次递增，最难为 3500。</p>
+<p>以及各大 ICPC 区域赛的真题位于 Gym，正常来说是无法看到错误数据的。</p>
+<p><img alt="4" src="/img/gym.png" /></p>
+<p>开不了 coach 模式的同学但是想在 Gym 里掏数据可以用集训队公用号 HUSTACM，密码是 sacggyyds。</p>
+<p>Atcoder（AT）https://atcoder.jp/：日本的 OJ 平台，每周末固定有一场 Atcoder Beginner Contest 比赛（单人，100min）供入门选手学习。还有 Atcoder Regular Contest 和 Atcoder Grand Contest，难度非常大，相当于 CF Div1 甚至更高。普遍认为思维难度较 Codeforces 大，对代码的要求则相对低一些。非常适合思维的训练的 OJ 平台。</p>
+<p>以上两个 OJ 的比赛均为 ACM 赛制（CF 中 div1 和 div2 的非 Educational 比赛为 CF 特有赛制），均可以进行 Virtual Participation（VP）：即参加过去的比赛，可以参考过去的榜单。最后 VP 的结果也会留在榜单上。</p>
+<p>建议平常可以进行 CF 和 AT 的单人训练以测试自己的能力。为了方便了解大家的水平，请大家在 Codeforces 上修改自己的 Organization：点击自己的 Profile，然后选择 Setting 里面的 Social，最后一项填写 Huazhong University of Science and Technology。</p>
+<p>VJudge（VJ）https://vjudge.net/：可以抓取现有各大 OJ 的题面，同时在 VJ 后台安排了各大 OJ 的提交 bot，可以只在这一个平台提交，交到各大平台以获得反馈，同时做各个平台的题目。同时该平台支持自由组合题目以组成一场比赛供训练使用。</p>
+<p>还有很多小但题目质量很高的 OJ 平台如 SPOJ、HDU、POJ 等在此不再赘述。</p>
+<p>可以通过 OJHunt 进行各大OJ做题数的统计。</p>
+<h3 id="_4"><strong>后续比赛/训练/筛选标准</strong></h3>
+<p>在 10 月中旬（具体会在招新群发放通知），会组织一场新生单人 ACM 赛制的比赛，仅作为当前赛季（2022 年 9 月-2023 年 8 月）区域赛名额选拔赛，前几名可以获得今年 11 月至 12 月ICPC 或 CCPC 区域赛参赛资格。</p>
+<p>寒假会组织线上讲课（形式初步定为 B 站直播）以及一些单人训练赛，若想正式加入集训队则必须参加，待训练结束后会根据参加人数和单人训练赛成绩进行初步筛选工作。</p>
+<p>明年的 3-5 月是大量算法竞赛个人赛的比赛时间—— 4 月有蓝桥杯的省赛（单人 OI 赛制）和天梯赛（单人 IOI 赛制），5 月是组队的 CCPC 湖北省赛（三人 ACM 赛制），6 月是蓝桥杯的国赛，以及一些其他比赛也经常在这一时间举办。这些比赛不属于集训队限定比赛，不设置报名门槛，如果你对算法竞赛感兴趣，即使没有加入集训队也可以积极参与报名，锻炼能力，夺取奖项。</p>
+<p>明年暑假 7 月初会进行若干场个人赛，以此成绩来进行最终的人员筛选以及决定下个赛季的组队名单，7-8 月需要留校参加多校集训（三人 ACM 赛制）。通常要求参加暑假多校后才能参加下一年的区域赛。</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../%E5%8E%86%E5%B9%B4%E6%88%90%E7%BB%A9/" class="btn btn-neutral float-right" title="历年成绩">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../%E5%8E%86%E5%B9%B4%E6%88%90%E7%BB%A9/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
