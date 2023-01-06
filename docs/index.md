@@ -8,6 +8,8 @@
 -	湖北地区在 2019 年度国家级以上金牌共 8 枚，其中武汉大学 2 枚，华中师范大学 1 枚，华中科技大学5枚。
 -	2019 年我队成员 30 人，得到国家级金奖的共 9 人。目前校队规模保持在30-40人。
 
+更多历年成绩请参见：<https://hustacm.com/%E5%8E%86%E5%B9%B4%E6%88%90%E7%BB%A9/>。
+
 🌐 官方网站：<https://hustacm.com>
 
 📺 官方 Bilibili 账号：[HUSTACM_official](https://space.bilibili.com/321840908)
