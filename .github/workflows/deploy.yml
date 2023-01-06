@@ -27,12 +27,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: 🔨 pip install
+      - name: 🔨 Python install
         uses: actions/setup-python@v2
         with:
           python-version: 3.x
-        run: |
-          pip install mkdocs
+          
+      - name: 🔨 pip install
+        run: pip install mkdocs
         env:
           CI: true
 
