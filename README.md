@@ -1,7 +1,7 @@
 # hustacm.com
 
 [![Powered by MkDocs](https://img.shields.io/badge/Powered%20by-MkDocs-blue)](https://www.mkdocs.org/)
-![AppVeyor](https://img.shields.io/appveyor/build/HUSTACM/hustacm.com)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/HUSTACM/hustacm.com/deploy.yml)
 [![Website](https://img.shields.io/website?down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fhustacm.com)](https://hustacm.com)
 
 🌐 HUSTACM 官方网站：<https://hustacm.com>
