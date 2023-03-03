@@ -16,6 +16,8 @@
 
 🏙️ 官方 GitHub Organization：[HUST ACM-ICPC Training Team](https://github.com/HUSTACM)
 
+🤝 HUSTACM 2022 招新群（萌新群）：[744140247](https://jq.qq.com/?_wv=1027&k=aADkZts8)
+
 ### CONTRIBUTING
 
 如果你有任何的建议、提案，抑或者你是 HUSTACM 集训队一员，并且希望在你的 GitHub 账号上添加 HUSTACM 组织标识，请参见 [CONTRIBUTING.md](https://github.com/HUSTACM/.github/blob/main/profile/CONTRIBUTING.md) 指引进行贡献，**一旦你的 PR 被允许合并**，我们将会邀请您成为我们组织的成员。
