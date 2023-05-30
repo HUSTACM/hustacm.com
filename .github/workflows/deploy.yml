@@ -33,7 +33,10 @@ jobs:
           python-version: 3.x
           
       - name: 🔨 pip install
-        run: pip install mkdocs
+        run: |
+          pip install mkdocs
+          pip install --upgrade python-markdown-math
+          pip install pymdown-extensions
         env:
           CI: true
 
