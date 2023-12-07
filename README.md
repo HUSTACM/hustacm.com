@@ -4,7 +4,7 @@
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/HUSTACM/hustacm.com/deploy.yml)
 [![Website](https://img.shields.io/website?down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fhustacm.com)](https://hustacm.com)
 
-🌐 HUSTACM 官方网站：<https://hustacm.com>
+🌐 HUSTACM 官方网站：<https://husta.cm>
 
 网站基于 [MkDocs](https://www.mkdocs.org/) 搭建，主要用于存放 HUSTACM 集训队历年成绩、训练计划、训练资源等内容。
 
